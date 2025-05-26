@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Store - Best Deals on iPhones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ff7f50;
+            color: white;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            color: black;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff4500;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .reviews-btn {
+            background: #008CBA;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .personal-message {
+            background: #222;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the iPhone Store</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#deals">Special Deals</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="container">
+        <h2>About Our Store</h2>
+        <p>Discover the best deals on the latest iPhones, accessories, and exclusive offers. We provide top-quality products at unbeatable prices.</p>
+        <a href="#contact" class="btn">Learn More</a>
+    </section>
+    <section class="container personal-message">
+        <h2>My Vision</h2>
+        <p>I am a passionate software engineer dedicated to changing the world by building the best websites. Innovation, creativity, and technology drive me forward, and this store is just the beginning of what I will accomplish.</p>
+    </section>
+    <section id="products" class="container">
+        <h2>Our iPhone Collection</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="iphone15.jpg" alt="iPhone 15 Pro">
+                <h3>iPhone 15 Pro</h3>
+                <p>Experience the latest in smartphone technology with the iPhone 15 Pro.</p>
+                <a href="#contact" class="btn">Buy Now</a>
+            </div>
+            <div class="card">
+                <img src="iphone14.jpg" alt="iPhone 14">
+                <h3>iPhone 14</h3>
+                <p>Elegant and powerful, designed to keep you connected.</p>
+                <a href="#contact" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+    <section id="deals" class="container">
+        <h2>Special Deals</h2>
+        <p>Get the best discounts on your favorite iPhones.</p>
+        <a href="#contact" class="btn">View Deals</a>
+    </section>
+    <section id="accessories" class="container">
+        <h2>Accessories</h2>
+        <p>Find the best accessories to enhance your iPhone experience.</p>
+        <a href="#contact" class="btn">Shop Accessories</a>
+    </section>
+    <section id="reviews" class="container">
+        <h2>Customer Reviews</h2>
+        <p>See what our customers are saying!</p>
+        <a href="#contact" class="btn">Write a Review</a>
+    </section>
+    <section id="faq" class="container">
+        <h2>Frequently Asked Questions</h2>
+        <p>Have questions? We have answers.</p>
+        <a href="#contact" class="btn">Ask a Question</a>
+    </section>
+    <section id="blog" class="container">
+        <h2>Latest News & Blog</h2>
+        <p>Stay updated with the latest iPhone news.</p>
+        <a href="#contact" class="btn">Read More</a>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: IJB@iphonestore.com</p>
+        <p>Phone: +250788544811</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 iPhone Store | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
